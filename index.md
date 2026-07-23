@@ -43,6 +43,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iFsVW0_bvoQ?si=i9X5aGsMF0z5Ny_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+I trained a convolutional neural network to detect smiling and not smiling faces. It was quite surprising how much debugging I had to do and I ran into many issues such as getting the correct files and making sure the code was operating correctly. For my next milestone, I will apply what I have learned to create a detector that can identify different breeds and colors of cats.
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
