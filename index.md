@@ -43,7 +43,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iFsVW0_bvoQ?si=i9X5aGsMF0z5Ny_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-I trained a convolutional neural network to detect smiling and not smiling faces. It was quite surprising how much debugging I had to do and I ran into many issues such as getting the correct files and making sure the code was operating correctly. For my next milestone, I will apply what I have learned to create a detector that can identify different breeds and colors of cats.
+I trained a convolutional neural network to detect smiling and not smiling faces. It utilizes two main parts: A Haar Classifier and a CNN.
+
+What is a convolutional neural network (CNN)? A nueral network allows the computer to function analogously to the brain (Dubnov and Greer, 2023). A CNN is a type of neural network for data such as images. A neural network uses weights and biases while classifying an input for the best accuracy.
+
+What is a Haar Classifier? A haar classifier is a tool used in machine learning, specifically with visuals. It uses hundreds of positive images and negative images to classify shapes. It checks for simple shapes and patterns for classification.
+
+It was quite surprising how much debugging I had to do. I ran into many issues such as getting the correct files and making sure the code was operating correctly. For my next milestone, I will apply what I have learned to create a detector that can identify different breeds cats.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -64,7 +70,7 @@ hi
 
 # Other Resources/Examples
 
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
+- Dubnov, Greer. Deep & Shallow: Machine Learning for Music & Audio
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
