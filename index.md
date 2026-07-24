@@ -1,4 +1,4 @@
-# Smile Detector using LeNet
+# Smile Detector using Machine Learning
 I made a smile detector using deep learning. I applied it to identifying cat breeds and added a speaker to tell you what breed of cat it is identifying.
 
 
