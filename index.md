@@ -70,7 +70,7 @@ hi
 
 # Other Resources/Examples
 
-- Dubnov, Greer. Deep & Shallow: Machine Learning for Music & Audio
+- Dubnov, Greer. *Deep & Shallow: Machine Learning for Music & Audio*
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
