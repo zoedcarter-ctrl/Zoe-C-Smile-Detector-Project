@@ -23,11 +23,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VMCjQQUHiyg?si=wXJ44Xh4ZkwI5vAN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+I adapted my smile detector into a cat detector, which can identify objects/faces as a "cat" or "not cat" with a 95%+ accuracy.
+
+To accomplish this, I changed the depth parameter so that it analyzed the images in RGB instead of grayscale, and used MobileNetV2 as the base model rather than LeNet. 
+
+Using a preexisting model to train your network is known as transfer learning, where you freeze the base of the network and cut off the "head" (the top layers it was trained on) so that you can implement your own dataset. Using MobileNetV2 not only shortened the time it took to train but also assisted in higher accuracy. My favorite part about doing this project so far was being able to get hands-on experience with machine learning rather than using YouTube videos.
+
+Originally, I was going to train my CNN to identify cat breeds, but the large amount of breeds in my dataset along with the uneven amounts of data for each one made it extremely inaccurate. I ended up having to scale down the ambition of my project in order to get good results.
+
+For my final milestone, I hope to be able to reimplement the cat breed classifier as well.
 
 
 
