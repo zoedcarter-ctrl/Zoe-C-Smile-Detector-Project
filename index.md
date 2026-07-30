@@ -47,8 +47,7 @@ I trained a convolutional neural network to detect smiling and not smiling faces
 
 It was quite surprising how much debugging I had to do. I ran into many issues such as getting the correct files and making sure the code was operating correctly. For my next milestone, I will apply what I have learned to create a detector that can identify different breeds cats.
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
 
 # Code
 
@@ -56,8 +55,9 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 hi
 ```
 
-# Bill of Materials
 
+
+# Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -67,7 +67,6 @@ hi
 # Other Resources/Examples
 
 - Dubnov, Greer. *Deep & Shallow: Machine Learning for Music & Audio*
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-
+- [Smile Detector Tutorial] https://pyimagesearch.com/2021/07/14/smile-detection-with-opencv-keras-and-tensorflow/
+- [Cat Dataset] https://www.kaggle.com/datasets/crawford/cat-dataset
+- [Random Images Dataset] https://www.kaggle.com/datasets/ezzzio/random-images
