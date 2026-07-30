@@ -67,6 +67,6 @@ hi
 # Other Resources/Examples
 
 - Dubnov, Greer. *Deep & Shallow: Machine Learning for Music & Audio*
-- [Smile Detector Tutorial] https://pyimagesearch.com/2021/07/14/smile-detection-with-opencv-keras-and-tensorflow/
-- [Cat Dataset] https://www.kaggle.com/datasets/crawford/cat-dataset
-- [Random Images Dataset] https://www.kaggle.com/datasets/ezzzio/random-images
+- [Smile Detector Tutorial] (https://pyimagesearch.com/2021/07/14/smile-detection-with-opencv-keras-and-tensorflow/)
+- [Cat Dataset] (https://www.kaggle.com/datasets/crawford/cat-dataset)
+- [Random Images Dataset] (https://www.kaggle.com/datasets/ezzzio/random-images)
