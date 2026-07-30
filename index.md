@@ -1,11 +1,5 @@
 # Smile Detector using Machine Learning
-I made a smile detector using deep learning. I applied it to identifying cat breeds and added a speaker to tell you what breed of cat it is identifying.
-
-
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+I made a smile detector using deep learning. I applied it to accurately classifying things as "cats" and "not cats".
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -14,8 +8,6 @@ I made a smile detector using deep learning. I applied it to identifying cat bre
 ![Headstone Image](catnotcat1.png)
   
 # Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -29,8 +21,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -38,6 +28,8 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
+
+
 
 # First Milestone
 
@@ -47,7 +39,7 @@ I trained a convolutional neural network to detect smiling and not smiling faces
 
 **What is a convolutional neural network (CNN)?** A nueral network allows the computer to function analogously to the brain (Dubnov and Greer, 2023). A CNN is a type of neural network for data such as images. A neural network uses weights and biases while classifying an input for the best accuracy.
 
-**What is a Haar Classifier?** A haar classifier is a tool used in machine learning, specifically with visuals. It uses hundreds of positive images and negative images to classify shapes. It checks for simple shapes and patterns for classification.
+**What is a Haar Classifier?** A Haar Classifier is a tool used in machine learning, specifically with visuals. It uses hundreds of positive images and negative images to classify shapes. It checks for simple shapes and patterns for classification.
 
 It was quite surprising how much debugging I had to do. I ran into many issues such as getting the correct files and making sure the code was operating correctly. For my next milestone, I will apply what I have learned to create a detector that can identify different breeds cats.
 
