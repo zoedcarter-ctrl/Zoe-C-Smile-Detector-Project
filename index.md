@@ -11,7 +11,7 @@ I made a smile detector using deep learning. I applied it to identifying cat bre
 |:--:|:--:|:--:|:--:|
 | Zoe C | Academic Magnet HS | Nuclear Engineering and Deep Learning | Incoming Junior
 
-![Headstone Image](Zoe-C-Smile-Detector-Project/catnotcat1.png)
+![Headstone Image](catnotcat1.png)
   
 # Final Milestone
 
