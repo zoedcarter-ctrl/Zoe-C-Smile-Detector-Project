@@ -1,4 +1,4 @@
-# Smile Detector using Machine Learning
+# Cat Breed Detector
 I made a smile detector using deep learning. I applied it to accurately classifying things as "cats" and "not cats".
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -70,3 +70,5 @@ hi
 - [Smile Detector Tutorial](https://pyimagesearch.com/2021/07/14/smile-detection-with-opencv-keras-and-tensorflow/)
 - [Cat Dataset](https://www.kaggle.com/datasets/crawford/cat-dataset)
 - [Random Images Dataset](https://www.kaggle.com/datasets/ezzzio/random-images)
+- [Cat Breed Dataset 1](https://www.kaggle.com/datasets/denispotapov/cat-breeds-dataset-cleared)
+- [Cat Breed Dataset 2](https://github.com/atharvataras/cat-breeds-dataset)
