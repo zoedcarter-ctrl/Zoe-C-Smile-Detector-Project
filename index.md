@@ -1,5 +1,5 @@
 # Cat Breed Detector
-I made a smile detector using deep learning. I applied it to accurately classifying things as "cats" and "not cats".
+I made a smile detector using deep learning. I applied it to accurately classifying things as "cats" and "not cats". Later, I also made a second detector to classify cat breeds. My detector can identify cats with over 95% accuracy and cat breeds with 80% accuracy.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
