@@ -121,8 +121,6 @@ for d in (trainDir, testDir):
 
 os.makedirs(os.path.dirname(args["model"]) or ".", exist_ok=True)
 
-# data augmentation for training; test set is only rescaled, never
-# augmented, so evaluation reflects real performance
 trainAug = ImageDataGenerator(
 	rescale=1.0 / 255.0,
 	rotation_range=15,
