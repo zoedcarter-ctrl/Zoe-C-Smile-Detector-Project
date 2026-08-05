@@ -318,7 +318,7 @@ print("[INFO] training plot saved to {}".format(args["plot"]))
   </code></pre>
 </div>
 
-**Training: cat breeds***
+**Training: cat breeds**
 <div style="
   height: 350px;
   overflow-y: auto;
