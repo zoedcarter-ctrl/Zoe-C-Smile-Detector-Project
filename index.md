@@ -442,8 +442,7 @@ def load_datasets(dataset_path):
 
     print("[INFO] loading dataset from train/ and test/ folders...")
 
-    # carve a validation split out of train/ only, so early stopping
-    # and LR reduction have something to monitor during training
+ 
     train_dataset = tf.keras.utils.image_dataset_from_directory(
         train_dir,
         labels="inferred",
@@ -470,8 +469,7 @@ def load_datasets(dataset_path):
 
     breed_names = train_dataset.class_names
 
-    # test/ is used in full, untouched -- no split needed since it's
-    # already a separate folder
+   
     test_dataset = tf.keras.utils.image_dataset_from_directory(
         test_dir,
         labels="inferred",
@@ -588,7 +586,7 @@ def build_model(number_of_breeds):
         weights="imagenet",
     )
 
-    # Initially train only the new classification head.
+ 
     base_model.trainable = False
 
     features = base_model(
@@ -787,7 +785,7 @@ def main():
 
         base_model.trainable = True
 
-        # Fine-tune only the final 30 MobileNetV2 layers.
+        
         fine_tune_from = len(base_model.layers) - 30
 
         for layer in base_model.layers[:fine_tune_from]:
@@ -935,7 +933,7 @@ def classify_frame(frame):
 		"breed_confidence": None,
 	}
 
-	# stage 2: only runs if stage 1 said "cat"
+	
 	if isCat:
 		breedInput = preprocess(frame, breedSize)
 		breedProbs = breedModel.predict(breedInput, verbose=0)[0]
