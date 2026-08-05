@@ -11,11 +11,11 @@ I made a smile detector using deep learning. I applied it to accurately classify
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KRc8iOeX4nE?si=7IZvbn6GO3qBfFDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+I added a second CNN to classify cat breeds once a cat is detected on a webcam or in a photo.
+
+It took a large amount of trial and error with training. I edited the dataset multiple times to get rid of mislabeled images and I tested different codes to see which would yield the best accuracy.
+
+I learned a lot about CNNs and how to use them, and I improved my problem-solving skills a lot. I hope that I can continue to use these skills once I move onto my next machine learning project!
 
 
 
@@ -41,7 +41,7 @@ For my final milestone, I hope to be able to reimplement the cat breed classifie
 
 I trained a convolutional neural network to detect smiling and not smiling faces. It utilizes two main parts: A Haar Classifier and a CNN.
 
-**What is a convolutional neural network (CNN)?** A nueral network allows the computer to function analogously to the brain (Dubnov and Greer, 2023). A CNN is a type of neural network for data such as images. A neural network uses weights and biases while classifying an input for the best accuracy.
+**What is a convolutional neural network (CNN)?** A nueral network allows the computer to function analogously to the brain (Dubnov and Greer, 2023). A CNN is a deep learning model designed for processing data such as images. It uses filters called kernels that scan for patterns and create feature maps then defines those shapes and shrinks the data so that it doesn’t memorize unimportant details. 
 
 **What is a Haar Classifier?** A Haar Classifier is a tool used in machine learning, specifically with visuals. It uses hundreds of positive images and negative images to classify shapes. It checks for simple shapes and patterns for classification.
 
